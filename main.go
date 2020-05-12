@@ -1,6 +1,5 @@
 package main
 
-//manav
 import (
 	"fmt"
 	"log"
