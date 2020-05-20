@@ -1,8 +1,9 @@
 package data
 
 type User struct {
-	Id    int    `json:"id"`
-	Name  string `json:"name"`
-	Email string `json:"email"`
-	Phone int    `json:"phone-number"`
+	Id       int    `json:"id"`
+	Email    string `json:"email" db:"email"`
+	Username string `json:"username" db:"username"`
+	Bio      string `json:"bio"	 db:"bio"`
+	Password string `json:"password" db:"password"`
 }
